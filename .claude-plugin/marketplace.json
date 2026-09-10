@@ -1105,6 +1105,20 @@
       "homepage": "https://unity.com"
     },
     {
+      "name": "unstructured-foundation",
+      "displayName": "Unstructured Foundation",
+      "description": "Connect sources and search processed documents with Unstructured Foundation. Provides MCP access to source setup, processing status, document search, and document retrieval.",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Unstructured-IO/unstructured-foundation-marketplace.git",
+        "path": "plugins/foundation",
+        "ref": "main",
+        "sha": "492770f062ba9f01e8a0ae9b111c89e4642fdb29"
+      },
+      "homepage": "https://unstructured.io"
+    },
+    {
       "name": "activecampaign",
       "displayName": "ActiveCampaign",
       "description": "Marketing automation, CRM, and email marketing powered by ActiveCampaign. Manage contacts, campaigns, automations, deals, and get AI-powered marketing insights — all from Claude.",
@@ -1143,20 +1157,6 @@
         "sha": "843d5a38f82cdc1b275baf4953a659be0ad41247"
       },
       "homepage": "https://www.hubspot.com"
-    },
-    {
-      "name": "unstructured-foundation",
-      "displayName": "Unstructured Foundation",
-      "description": "Connect sources and search processed documents with Unstructured Foundation. Provides MCP access to source setup, processing status, document search, and document retrieval.",
-      "category": "productivity",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/Unstructured-IO/unstructured-foundation-marketplace.git",
-        "path": "plugins/foundation",
-        "ref": "main",
-        "sha": "492770f062ba9f01e8a0ae9b111c89e4642fdb29"
-      },
-      "homepage": "https://unstructured.io"
     }
   ]
 }
